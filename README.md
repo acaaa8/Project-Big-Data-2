@@ -25,4 +25,5 @@ Terdapat sebuah sistem Big Data dengan arsitektur seperti gambar di atas. Sistem
 Batch dapat ditentukan berdasarkan:
 
 `Jumlah data yang diterima`
+
 `Rentang waktu proses (window) Sehingga nanti akan didapatkan beberapa file dataset sesuai dengan batch yang dipilih.`
