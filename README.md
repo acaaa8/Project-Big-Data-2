@@ -27,3 +27,31 @@ Batch dapat ditentukan berdasarkan:
 `Jumlah data yang diterima`
 
 `Rentang waktu proses (window) Sehingga nanti akan didapatkan beberapa file dataset sesuai dengan batch yang dipilih.`
+
+(Penjelasan/Dokumentasi)
+***
+#### 4. Spark script bertugas untuk melakukan training model sesuai dengan data yang masuk. Diharapkan ada beberapa model yang dihasilkan sesuai dengan jumlah data yang masuk. Kalian dapat menentukan sendiri berapa jumlah data yang diproses untuk tiap model.
+Contoh:
+A. Terdapat 3 model dengan skema sebagai berikut:
+Model 1: Menggunakan data selama 5 menit pertama atau 500.000 data pertama.
+Model 2: Menggunakan data selama 5 menit kedua atau 500.000 data kedua.
+Model 3: Menggunakan data selama 5 menit ketiga atau 500.000 data ketiga.
+
+B. Terdapat 3 model dengan skema sebagai berikut:
+Model 1: 1/3 data pertama
+Model 2: 1/3 data pertama + 1/3 data kedua
+Model 3: 1/3 data pertama + 1/3 data kedua + 1/3 data terakhir (semua data)
+***
+(Penjelasan/Dokumentasi)
+***
+#### 5. Model-model yang dihasilkan akan digunakan di dalam API. Buatlah endpoint sesuai dengan jumlah model yang ada.
+(Penjelasan/Dokumentasi)
+***
+#### 6. User akan melakukan request ke API. API akan memberikan respon sesuai dengan request user.
+Misal:
+- Apabila user melakukan request rekomendasi, maka input yang diperlukan adalah rating dari user dan response yang diberikan adalah daftar rekomendasi.
+- Apabila modelnya adalah kasus clustering, maka response yang diberikan adalah ada di cluster mana data input dari user tersebut.
+Jumlah API yang dibuat minimal sebanyak jumlah anggotanya (apabila ada 3 anggota, maka minimal membuat 3 api endpoint dengan fungsi berbeda)
+***
+(Penjelasan/Dokumentasi)
+***
