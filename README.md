@@ -23,9 +23,6 @@ Terdapat sebuah sistem Big Data dengan arsitektur seperti gambar di atas. Sistem
 ***
 #### 3. Kafka consumer membaca data yang ada di dalam Kafka server dan akan menyimpan data yang diterima dalam bentuk batch.
 Batch dapat ditentukan berdasarkan:
-```
-Jumlah data yang diterima
-```
-```
-Rentang waktu proses (window) Sehingga nanti akan didapatkan beberapa file dataset sesuai dengan batch yang dipilih.
-```
+
+`Jumlah data yang diterima`
+`Rentang waktu proses (window) Sehingga nanti akan didapatkan beberapa file dataset sesuai dengan batch yang dipilih.`
