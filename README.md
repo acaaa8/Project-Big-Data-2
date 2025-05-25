@@ -32,15 +32,16 @@ Batch dapat ditentukan berdasarkan:
 ***
 #### 4. Spark script bertugas untuk melakukan training model sesuai dengan data yang masuk. Diharapkan ada beberapa model yang dihasilkan sesuai dengan jumlah data yang masuk. Kalian dapat menentukan sendiri berapa jumlah data yang diproses untuk tiap model.
 Contoh:
+
 A. Terdapat 3 model dengan skema sebagai berikut:
-Model 1: Menggunakan data selama 5 menit pertama atau 500.000 data pertama.
-Model 2: Menggunakan data selama 5 menit kedua atau 500.000 data kedua.
-Model 3: Menggunakan data selama 5 menit ketiga atau 500.000 data ketiga.
+- Model 1: Menggunakan data selama 5 menit pertama atau 500.000 data pertama.
+- Model 2: Menggunakan data selama 5 menit kedua atau 500.000 data kedua.
+- Model 3: Menggunakan data selama 5 menit ketiga atau 500.000 data ketiga.
 
 B. Terdapat 3 model dengan skema sebagai berikut:
-Model 1: 1/3 data pertama
-Model 2: 1/3 data pertama + 1/3 data kedua
-Model 3: 1/3 data pertama + 1/3 data kedua + 1/3 data terakhir (semua data)
+- Model 1: 1/3 data pertama
+- Model 2: 1/3 data pertama + 1/3 data kedua
+- Model 3: 1/3 data pertama + 1/3 data kedua + 1/3 data terakhir (semua data)
 ***
 (Penjelasan/Dokumentasi)
 ***
