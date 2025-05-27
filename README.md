@@ -21,6 +21,8 @@ Terdapat sebuah sistem Big Data dengan arsitektur seperti gambar di atas. Sistem
 ***
 #### 2. Kafka Producer akan mengirimkan data per baris ke Kafka Server seolah-olah sedang melakukan streaming. Proses ini dapat dilakukan dengan menambahkan jeda/sleep secara random agar data tidak dikirimkan secara langsung.
 
+jalankan : ```python producer.py```
+
 ![image](https://github.com/user-attachments/assets/12cc4629-133e-4a00-b1f0-0c7b5ed4afa8)
 
 ***
@@ -29,6 +31,8 @@ Batch dapat ditentukan berdasarkan:
 
 - Jumlah data yang diterima
 - Rentang waktu proses (window) Sehingga nanti akan didapatkan beberapa file dataset sesuai dengan batch yang dipilih.
+
+jalankan : ```python consumer_batch.py```
 
 ![image](https://github.com/user-attachments/assets/7b3dc987-737a-48b2-adcb-88a79f2517c4)
 
