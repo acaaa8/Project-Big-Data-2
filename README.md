@@ -16,10 +16,13 @@ Terdapat sebuah sistem Big Data dengan arsitektur seperti gambar di atas. Sistem
 ***
 ### Soal:
 #### 1. Terdapat sebuah file dataset yang akan dibaca secara sekuensial oleh Kafka Producer.
-(link dataset: (here))
+(link dataset: (https://www.kaggle.com/datasets/amaanpoonawala/youtube-comments-sentiment-dataset
+))
 ***
 #### 2. Kafka Producer akan mengirimkan data per baris ke Kafka Server seolah-olah sedang melakukan streaming. Proses ini dapat dilakukan dengan menambahkan jeda/sleep secara random agar data tidak dikirimkan secara langsung.
-(Penjelasan/Dokumentasi)
+
+![image](https://github.com/user-attachments/assets/12cc4629-133e-4a00-b1f0-0c7b5ed4afa8)
+
 ***
 #### 3. Kafka consumer membaca data yang ada di dalam Kafka server dan akan menyimpan data yang diterima dalam bentuk batch.
 Batch dapat ditentukan berdasarkan:
@@ -27,7 +30,10 @@ Batch dapat ditentukan berdasarkan:
 - Jumlah data yang diterima
 - Rentang waktu proses (window) Sehingga nanti akan didapatkan beberapa file dataset sesuai dengan batch yang dipilih.
 
-(Penjelasan/Dokumentasi)
+![image](https://github.com/user-attachments/assets/7b3dc987-737a-48b2-adcb-88a79f2517c4)
+
+![image](https://github.com/user-attachments/assets/a110b8bd-4ada-49ca-bd8f-7a831690c152)
+
 ***
 #### 4. Spark script bertugas untuk melakukan training model sesuai dengan data yang masuk. Diharapkan ada beberapa model yang dihasilkan sesuai dengan jumlah data yang masuk. Kalian dapat menentukan sendiri berapa jumlah data yang diproses untuk tiap model.
 Contoh:
