@@ -61,6 +61,7 @@ Gambar Log Proses:
 
 
 Gambar direktori 'models' dan model yang dihasilkan:
+
 ![Screenshot 2025-05-30 at 00 30 47](https://github.com/user-attachments/assets/681bb7b2-f83f-4533-95c7-ff62afa86cda)
 ***
 #### 5. Model-model yang dihasilkan akan digunakan di dalam API. Buatlah endpoint sesuai dengan jumlah model yang ada.
