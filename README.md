@@ -12,7 +12,7 @@
 Terdapat sebuah sistem Big Data dengan arsitektur seperti gambar di atas. Sistem tersebut berfungsi untuk menyimulasikan pemrosesan data stream menggunakan Kafka dan Apache Spark. Untuk kemudahan pemrosesan, Kafka Consumer tidak wajib menggunakan Spark Streaming. Alur yang diharapkan adalah sebagai berikut.
 ***
 ### Penjelasan Dataset
-(Here)
+Dataset ini terdiri dari lebih dari satu juta komentar YouTube, terdapat label sentimen—Positif, Netral, atau Negatif. Komentar-komentar tersebut mencakup berbagai topik termasuk pemrograman, berita, olahraga, politik, dsb.
 ***
 ### Soal:
 #### 1. Terdapat sebuah file dataset yang akan dibaca secara sekuensial oleh Kafka Producer.
