@@ -16,8 +16,8 @@ Terdapat sebuah sistem Big Data dengan arsitektur seperti gambar di atas. Sistem
 ***
 ### Soal:
 #### 1. Terdapat sebuah file dataset yang akan dibaca secara sekuensial oleh Kafka Producer.
-(link dataset: (https://www.kaggle.com/datasets/amaanpoonawala/youtube-comments-sentiment-dataset
-))
+link dataset: (https://www.kaggle.com/datasets/amaanpoonawala/youtube-comments-sentiment-dataset
+)
 ***
 #### 2. Kafka Producer akan mengirimkan data per baris ke Kafka Server seolah-olah sedang melakukan streaming. Proses ini dapat dilakukan dengan menambahkan jeda/sleep secara random agar data tidak dikirimkan secara langsung.
 
