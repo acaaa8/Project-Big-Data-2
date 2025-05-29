@@ -65,7 +65,28 @@ Gambar direktori `models` dan model yang dihasilkan:
 ![Screenshot 2025-05-30 at 00 30 47](https://github.com/user-attachments/assets/681bb7b2-f83f-4533-95c7-ff62afa86cda)
 ***
 #### 5. Model-model yang dihasilkan akan digunakan di dalam API. Buatlah endpoint sesuai dengan jumlah model yang ada.
-(Penjelasan/Dokumentasi)
+Membuat API dengan Endpoints yang sesuai dengan tiga model sebelumnya. API ini akan mengambil masukan teks dari pengguna dan mengembalikan prediksi sentimen.
+Di sini saya menggunakan Flask untuk membuat API nya.
+
+Jalankan `app.py`, output akan menunjukkan bahwa flask dijalankan dan models di-load:
+![Screenshot 2025-05-30 at 01 11 20](https://github.com/user-attachments/assets/33e34646-874b-4f47-ace5-b260e53c30ab)
+
+Proses Input dan Prediksi: Untuk setiap endpoints, ambil teks input, gunakan model yang dimuat untuk membuat prediksi sentimen, dan kembalikan hasilnya.
+Melakukan tes menggunakan `curl`:
+- Model 1
+`curl -X POST -H "Content-Type: application/json" -d '{"text": "This is a wonderful video, thank you!"}' http://localhost:5000/predict/model1`
+Output:
+![Screenshot 2025-05-30 at 00 45 02](https://github.com/user-attachments/assets/c2e1e79c-1217-4c7b-860d-c78c0556f5b9)
+
+- Model 2
+`curl -X POST -H "Content-Type: application/json" -d '{"text": "I did not like this at all."}' http://localhost:5000/predict/model2`
+Output:
+![Screenshot 2025-05-30 at 00 45 42](https://github.com/user-attachments/assets/67cdb01e-0121-4216-a151-c1eff526399a)
+
+- Model 3
+`curl -X POST -H "Content-Type: application/json" -d '{"text": "This is just an average video, nothing special."}' http://localhost:5000/predict/model3`
+Output:
+![Screenshot 2025-05-30 at 00 46 13](https://github.com/user-attachments/assets/0262a2f2-98ea-4191-9e3a-574084978844)
 ***
 #### 6. User akan melakukan request ke API. API akan memberikan respon sesuai dengan request user.
 Misal:
