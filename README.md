@@ -52,7 +52,15 @@ B. Terdapat 3 model dengan skema sebagai berikut:
 - Model 2: 1/3 data pertama + 1/3 data kedua
 - Model 3: 1/3 data pertama + 1/3 data kedua + 1/3 data terakhir (semua data)
 ***
-(Penjelasan/Dokumentasi)
+Membuat Spark Script yang bertugas untuk training beberapa model sesuai data yang masuk.
+
+Jalankan 'train_models.py', script akan membuat direktori 'models' dan mulai training model. Setelahnya, model akan disimpan di direktori 'models' pada subdirektori masing-masing.
+
+Gambar Log Proses:
+![Screenshot 2025-05-30 at 00 12 55](https://github.com/user-attachments/assets/bc99aa00-2667-4e88-b0db-01a1579c004f)
+
+Gambar direktori 'models' dan model yang dihasilkan:
+![Screenshot 2025-05-30 at 00 30 47](https://github.com/user-attachments/assets/681bb7b2-f83f-4533-95c7-ff62afa86cda)
 ***
 #### 5. Model-model yang dihasilkan akan digunakan di dalam API. Buatlah endpoint sesuai dengan jumlah model yang ada.
 (Penjelasan/Dokumentasi)
