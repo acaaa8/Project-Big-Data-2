@@ -68,7 +68,7 @@ Gambar direktori `models` dan model yang dihasilkan:
 Membuat API dengan Endpoints yang sesuai dengan tiga model sebelumnya. API ini akan mengambil masukan teks dari pengguna dan mengembalikan prediksi sentimen.
 Di sini saya menggunakan Flask untuk membuat API nya.
 
-Saya membuat 3 API:
+Saya membuat 3 endpoint:
 - /predict/model1
 - /predict/model2
 - /predict/model3
