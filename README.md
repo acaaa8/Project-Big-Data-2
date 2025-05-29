@@ -60,7 +60,7 @@ Gambar Log Proses:
 ![Screenshot 2025-05-30 at 00 12 55](https://github.com/user-attachments/assets/bc99aa00-2667-4e88-b0db-01a1579c004f)
 
 
-Gambar direktori 'models' dan model yang dihasilkan:
+Gambar direktori `models` dan model yang dihasilkan:
 
 ![Screenshot 2025-05-30 at 00 30 47](https://github.com/user-attachments/assets/681bb7b2-f83f-4533-95c7-ff62afa86cda)
 ***
