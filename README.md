@@ -108,6 +108,7 @@ Jumlah API yang dibuat minimal sebanyak jumlah anggotanya (apabila ada 3 anggota
 ##### /top-comments
 ![image](https://github.com/user-attachments/assets/96878610-ef14-48b5-bcdd-c04ae1e7912d)
 ##### /predict-sentiment
-![image](https://github.com/user-attachments/assets/087b52e0-a312-4067-99cf-8be86d06e59c)
+![image](https://github.com/user-attachments/assets/20e64d48-be61-4e68-bdb7-8b1c56f39e94)
+
 
 ***
