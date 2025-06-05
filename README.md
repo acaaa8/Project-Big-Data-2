@@ -106,7 +106,8 @@ Misal:
 Jumlah API yang dibuat minimal sebanyak jumlah anggotanya (apabila ada 3 anggota, maka minimal membuat 3 api endpoint dengan fungsi berbeda)
 ***
 ![image](https://github.com/user-attachments/assets/78483fef-afaf-4c6d-b8fe-88ac41255a52)
-![image](https://github.com/user-attachments/assets/b8364a77-201b-45a1-a786-2f214bc9feae)
+![image](https://github.com/user-attachments/assets/74ef872c-202c-4a68-ae29-6d2a5b2b816f)
+
 ![image](https://github.com/user-attachments/assets/768e418f-9fe5-44e5-b7fb-99301d674556)
 
 
