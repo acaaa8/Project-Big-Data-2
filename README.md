@@ -105,5 +105,9 @@ Misal:
 - Apabila modelnya adalah kasus clustering, maka response yang diberikan adalah ada di cluster mana data input dari user tersebut.
 Jumlah API yang dibuat minimal sebanyak jumlah anggotanya (apabila ada 3 anggota, maka minimal membuat 3 api endpoint dengan fungsi berbeda)
 ***
-(Penjelasan/Dokumentasi)
+![image](https://github.com/user-attachments/assets/3384c60d-f76e-4391-894f-3fd4cf51b9f7)
+![image](https://github.com/user-attachments/assets/b8364a77-201b-45a1-a786-2f214bc9feae)
+![image](https://github.com/user-attachments/assets/768e418f-9fe5-44e5-b7fb-99301d674556)
+
+
 ***
