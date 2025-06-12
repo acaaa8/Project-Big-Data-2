@@ -105,5 +105,12 @@ Misal:
 - Apabila modelnya adalah kasus clustering, maka response yang diberikan adalah ada di cluster mana data input dari user tersebut.
 Jumlah API yang dibuat minimal sebanyak jumlah anggotanya (apabila ada 3 anggota, maka minimal membuat 3 api endpoint dengan fungsi berbeda)
 ***
+- `/predict_sentiment_label`
+  ![image](https://github.com/user-attachments/assets/fc7fd669-711a-4c4b-80f3-e448ec21cb57)
 
+- `/predict_sentiment_probability`
+  ![image](https://github.com/user-attachments/assets/f5f0626f-d25d-4f78-a226-952c77a7a07e)
+
+- `/extract_keywords`
+  ![image](https://github.com/user-attachments/assets/24bc43f2-ecd0-4986-aad0-4aaabecf6529)
 ***
